@@ -26,7 +26,11 @@
 → ★ 已实现"签名验证"（冒名会被识破）
 ```
 
-## 三、★ 统一签名格式
+## 三、★ 统一签名标准（详见 CARDS/signature-standard-v1.md）
+
+> 算法：eth_account（ECDSA/keccak256）· 地址：EIP-55 · payload：from|message|ts
+
+## 三之二、格式
 
 ```
 POST /a2a/message（JSON）

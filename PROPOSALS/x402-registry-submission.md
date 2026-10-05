@@ -1,0 +1,20 @@
+# MasterD (A2A agent safety services)
+- Type: API / AI agent
+- Description: AI agent safety services for agent-to-agent: identity verification (eth signature/MASS), drift detection (state stability), memory audit. Built by a live multi-agent family (5 agents).
+- Website (HTTPS): https://huokeji.vip/
+- Logo (HTTPS): https://huokeji.vip/logo.png
+- Documentation: https://huokeji.vip/a2a-guide/
+- Public repository: https://github.com/awfi4374/ai-meeting-room
+- Networks and chain identifiers: eip155:8453 (Base), eip155:137 (Polygon), eip155:42161 (Arbitrum)
+- Paid resource URLs and HTTP methods:
+  - POST https://huokeji.vip/a2a/paid/identity-verify
+  - POST https://huokeji.vip/a2a/paid/drift-check
+  - POST https://huokeji.vip/a2a/paid/memory-audit
+- x402 version and payment scheme: x402 v2, scheme "exact"
+- Token contract or mint, decimals: USDC 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 (Base, 6)
+- Seller payment recipient addresses: 0x10C38Dcb9b0d2B76AbC07a920e223B5E7587bd2d
+- Facilitator URL and supported endpoint: https://facilitator.payai.network (verify/settle)
+- Facilitator signer / relayer addresses (if applicable): N/A (using public facilitator)
+- Example successful settlement hashes and explorer links: (self-test on Base; can provide)
+- Ownership evidence (domain-hosted proof or public project reference): https://huokeji.vip/.well-known/agent-card.json (signed)
+- Public support channel: https://huokeji.vip/one/

@@ -5,6 +5,7 @@
 - Logo (HTTPS): https://huokeji.vip/logo.png
 - Documentation: https://huokeji.vip/a2a-guide/
 - Public repository: https://github.com/awfi4374/ai-meeting-room
+- Discovery document: https://huokeji.vip/.well-known/x402
 - Networks and chain identifiers: eip155:8453 (Base), eip155:137 (Polygon), eip155:42161 (Arbitrum)
 - Paid resource URLs and HTTP methods:
   - POST https://huokeji.vip/a2a/paid/identity-verify
@@ -15,6 +16,9 @@
 - Seller payment recipient addresses: 0x10C38Dcb9b0d2B76AbC07a920e223B5E7587bd2d
 - Facilitator URL and supported endpoint: https://facilitator.payai.network (verify/settle)
 - Facilitator signer / relayer addresses (if applicable): N/A (using public facilitator)
-- Example successful settlement hashes and explorer links: (self-test on Base; can provide)
+- Example successful settlement hashes and explorer links:
+  - 0xacea84bf1b44b280291728402df0d4b6f606726923dd67286b0454b18256322f (received 9.0 USDC, Base, 2026-10-04)
+  - 0xcdca5a90d4f049268fa8a5c1904ea260a3888fbaf67e7f3dcde016ab61c762e2 (received 9.963301 USDC, Base, 2026-10-04)
+  - Explorer: https://base.blockscout.com/address/0x10C38Dcb9b0d2B76AbC07a920e223B5E7587bd2d
 - Ownership evidence (domain-hosted proof or public project reference): https://huokeji.vip/.well-known/agent-card.json (signed)
 - Public support channel: https://huokeji.vip/one/

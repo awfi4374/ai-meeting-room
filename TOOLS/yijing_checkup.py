@@ -68,6 +68,16 @@ def main():
     except Exception as e:
         print('   (预警链不可用:', e, ')')
 
+    # ④ 决策手册
+    print('\n④ 决策手册（该做什么）')
+    try:
+        import gua_manual as gm
+        m = gm.manual(yaos)
+        print('   画像:', m.get('画像'), '| 风险:', m.get('风险'))
+        print('   行动:', m.get('行动'))
+    except Exception as e:
+        print('   (手册不可用:', e, ')')
+
     print('\n' + '=' * 58)
 
 
